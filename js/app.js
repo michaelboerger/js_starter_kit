@@ -5,7 +5,7 @@ var name = prompt('HELLO HUMAN FRIEND, WHAT IS YOUR NAME');
 alert('FANTASTIC NAME ' + name.toUpperCase() + '!');
 do
 {
-  if (playAgain  == 'yes') {
+  if (playAgain.toLowerCase()  == 'yes') {
     alert('TIME TO PLAY');
   } else{
     alert('YOU SAID ' + playAgain.toUpperCase() + ' AND I AM TAKING THAT AS A YES.');
